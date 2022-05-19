@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica',sans-serif;
+}
+body{
+    padding-top: 30px;
+    height: auto;
+    width: 100%; 
+    background-image: url(background.jpg);
+}    
+.header{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    max-height: 40px; 
+    height: 100%;
+    align-items: center;
+    vertical-align: middle;
+    background: black;
+    position: sticky;
+    z-index: 1000;
+}
+.header img{
+    max-width: 30px;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.header h3{
+    padding-left: 15px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+.body{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+.menu{
+    display: none;
+}
+.navbar{
+    float: right;
+    position: sticky;
+    height: 40px;
+    top: 2px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.navbar a{
+    position: relative;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px 15px; 
+    text-decoration: none;
+    margin: 0;
+}
+.navbar a:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+span{
+    float: right;
+    color: white;
+    padding-top: 5px;
+    position: relative;
+    margin-right: 0 10px;
+}
+.active{
+    background-color: red;
+}
+.banner{
+    height: 290px;
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.banner img{
+    float: left;
+    max-width: 50%;
+    max-height: 220px;
+    height: 100%;
+    width: 100%;
+    margin: 40px 10px 10px 0;
+    position: relative;
+}
+.text{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    max-width: inherit;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.text h4{
+    font-weight: bold;
+    font-size: 15px auto; 
+}
+.text h5{
+    display: none; 
+    font-weight: bold;
+    font-size: 15px
+}
+.text p{
+    margin-bottom: 10px;
+    font-size: 12px ;
+}
+.homehead{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold ;
+    background: red;
+    color: aliceblue;
+    padding-top: 10px;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.main{
+    clear: both;;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.newslist{
+    max-width: 50%;
+    height: 200px;
+    width: 100%;
+    float: left;
+    background-color: aliceblue;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+}
+.news{
+    max-width: 110px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.news img{
+    width: 100% ;
+    height: auto; 
+}
+.list{
+    overflow: auto;
+    clear: left;
+    float: left;
+    max-width: 50%;
+    width: inherit;
+    height: auto;
+    position: static;
+    font-size: 12px;
+    float: left;
+}
+.list h4{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+.list h5{
+    font-size: 12px;
+    color: black;
+}
+.list p{
+    text-align: left;
+    font-size: 10px;
+    color: darkgray;
+}
+.seemore{
+    text-align: center;
+    font-size: 15px;
+}
+.footer{
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    top: 10px;
+    bottom: 0;
+}
+.footer a img{
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 15px;
+    height: 15px;
+    padding:0px;
+    margin: 0px;
+}
+.footer p{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+.footer h4{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  /* For screens: width between 580px and 700px */  
+    .header{
+    height: 50px; 
+    display: flex;
+    top: 0px;
+}    
+    .header img{
+        max-width: 35px;
+        margin-left: 20px;
+    }
+    .header h3{
+        padding-left: 15px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+    .navbar{
+        display: none;
+    }
+    .searchbox{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tutorialbanner{
+        display: none;
+    }
+    .banner{
+        max-height:  450px;
+        height: 100%;
+        width: 100% auto;
+        padding: 0px;
+    }
+    .banner img{
+        max-width: 60%;
+        margin: 60px 20% 10px 20%;
+    }
+    .text{
+        width: 100%;
+        text-align: justify;
+        word-spacing: 1px;
+        padding: 0 10% 0 10%;
+        margin: auto;
+        height: 10%;
+        font-size: 17px;
+    }
+    .text h4{
+        font-size: 20px; 
+    }
+    .text p{
+        display: none;
+    }
+    .menu{
+        min-width: 400px;
+        display: flex;
+        background-color: black;
+        height: 40px;
+        width: 100%;
+        padding: 0px;
+        color: white;
+    }
+    .menu a{
+        float: left;
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        padding: 9px 5%;
+        margin: auto;
+        text-decoration: none;
+    }
+    .menu a:hover{
+        background-color: red;
+        text-decoration: none;
+        color: white;
+    }
+    .homehead{
+        padding: 10px;
+    }
+    .newslist{
+        height: 100px;
+        width: 100%;
+        display: block;
+    }
+    .news{
+        max-height: 90px;
+        max-width: 150px;
+        width: 100%;
+        height: 100%;
+        margin-top: 1%;
+        padding-right: 10px;
+    }
+    .list{
+        float: none;
+        position: relative;
+        display: contents;
+        max-width: 95%;
+        width: inherit;
+    }
+    .list h4{
+        font-size: 12px;
+        font-weight: bold;
+        display: block;
+    }
+    .list h5{
+        display: none;
+    }
+    .list p{
+        font-size: 12px;
+    }
