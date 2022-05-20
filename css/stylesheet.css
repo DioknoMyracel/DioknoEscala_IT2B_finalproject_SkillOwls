@@ -126,7 +126,7 @@ span{
     padding-top: 10px;
     margin: auto;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 11px;
 }
 .main{
     clear: both;
@@ -240,6 +240,17 @@ iframe{
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 2%;
+}
+.miyahead{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold ;
+    background: red;
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
 }
 .footer{
     width: 100%;
