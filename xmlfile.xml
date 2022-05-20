@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hero_list>
+	<hero1>
+        <name>Miya</name>
+        <role>Marksman</role>
+        <specs>Reap|Damage</specs>
+    </hero1>
+    <hero2>
+        <name>Balmond</name>
+        <role>Fighter</role>
+        <specs>Damage|Reap</specs>
+    </hero2>
+    <hero3>
+        <name>Kagura</name>
+        <role>Mage</role>
+        <specs>Poke|Reap</specs>
+    </hero3>
+    <hero4>
+        <name>Karina</name>
+        <role>Assassin</role>
+        <specs>Reap|Magic Damage</specs>
+    </hero4>
+</hero_list>

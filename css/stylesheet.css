@@ -4,7 +4,6 @@
     font-family: 'Arial', 'Helvetica',sans-serif;
 }
 body{
-    padding-top: 30px;
     height: auto;
     width: 100%; 
     background-image: url(background.jpg);
@@ -44,7 +43,6 @@ body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
     margin-bottom: auto;
     align-items: center;
     vertical-align: middle;
@@ -56,7 +54,7 @@ body{
     float: right;
     position: sticky;
     height: 40px;
-    top: 2px;
+    top: 5px;
     padding-top: 20px;
     margin-bottom: 0;
     overflow: hidden;
@@ -88,7 +86,7 @@ span{
     background-color: red;
 }
 .banner{
-    height: 290px;
+    height: 260px;
     width: 100%;
     padding: 10px;
     background-color: aliceblue;
@@ -99,12 +97,11 @@ span{
     max-height: 220px;
     height: 100%;
     width: 100%;
-    margin: 40px 10px 10px 0;
+    margin: 10px;
     position: relative;
 }
 .text{
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding: 10px;
     max-width: inherit;
     width: 100%;
     font-size: 12px;
@@ -114,11 +111,6 @@ span{
 .text h4{
     font-weight: bold;
     font-size: 15px auto; 
-}
-.text h5{
-    display: none; 
-    font-weight: bold;
-    font-size: 15px
 }
 .text p{
     margin-bottom: 10px;
@@ -145,37 +137,37 @@ span{
 }
 .newslist{
     max-width: 50%;
-    height: 200px;
+    height: 160px;
     width: 100%;
     float: left;
     background-color: aliceblue;
     border-bottom: 1px dotted black;
     display: inline-block;
+    vertical-align: middle;
 }
 .news{
-    max-width: 110px;
+    max-width: 116px;
     width: 100%;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
-    padding-right: 10px;
-    position: relative;
-    overflow: hidden;
+    float: left;
+    padding: 0;
 }
 .news img{
     width: 100% ;
-    height: auto; 
+    height: 100%;
+    padding: 5px; 
 }
 .list{
-    overflow: auto;
-    clear: left;
+    display: contents;
+    margin: 5px;
+    clear: inherit;
     float: left;
     max-width: 50%;
-    width: inherit;
+    width: 100%;
     height: auto;
-    position: static;
-    font-size: 12px;
-    float: left;
+    position: relative;
 }
 .list h4{
     color: black;
@@ -193,26 +185,73 @@ span{
 }
 .seemore{
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
+}
+.herolist, .tabs, .hero, .role, .specs, tr{
+    border: 2px solid white;
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+}
+td:hover, tr:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.herolist, .tabs {
+    max-width: 90%;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.herolist a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.herolist a:hover{
+    text-decoration: none;
+    color: black;
+}
+th, td{
+    height: 90px;
+    width: 35%;
+    text-align: center;
+    vertical-align: middle;
+}
+.herolist img{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+iframe{
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .footer{
     width: 100%;
-    max-height: 100px;
+    max-height: 110px;
     height: 100%;
     background-color: black;
     padding: 10px;
     margin: 0;
     text-align: center;
-    top: 10px;
-    bottom: 0;
+    top: 0px;
+    bottom: 5px;
 }
 .footer a img{
     border-radius: 50%;
     background-color: aliceblue;
     width: 15px;
     height: 15px;
-    padding:0px;
-    margin: 0px;
+    padding: 0px;
+    margin: 5px 5px 10px 5px;
 }
 .footer p{
     font-size: 10px;
@@ -229,51 +268,42 @@ span{
 
 
 
-
-
 @media only screen and (max-width: 700px) {
-  /* For screens: width between 580px and 700px */  
-    .header{
-    height: 50px; 
-    display: flex;
-    top: 0px;
-}    
+  /* For screens: width between 400px and 700px */  
+
     .header img{
-        max-width: 35px;
+        max-width: 25px;
         margin-left: 20px;
     }
     .header h3{
         padding-left: 15px;
-        margin-bottom: 20px;
         margin-right: 15px;
     }
     .navbar{
         display: none;
     }
     .searchbox{
-        margin-right: auto;
-        margin-left: auto;
+        float: right;
+        position: sticky;
     }
-    .tutorialbanner{
-        display: none;
+    .body{
+        margin: 0;
     }
     .banner{
-        max-height:  450px;
+        max-height: 500px;
         height: 100%;
-        width: 100% auto;
-        padding: 0px;
+        width: 100%;
     }
     .banner img{
-        max-width: 60%;
-        margin: 60px 20% 10px 20%;
+        max-width: 300px;
+        margin: 0 25% 5px 25%;
+        height: auto;
     }
     .text{
         width: 100%;
         text-align: justify;
         word-spacing: 1px;
         padding: 0 10% 0 10%;
-        margin: auto;
-        height: 10%;
         font-size: 17px;
     }
     .text h4{
@@ -309,15 +339,14 @@ span{
         padding: 10px;
     }
     .newslist{
-        height: 100px;
+        height: 90px;
         width: 100%;
         display: block;
     }
     .news{
-        max-height: 90px;
-        max-width: 150px;
+        max-width: 90px;
         width: 100%;
-        height: 100%;
+        height: auto;
         margin-top: 1%;
         padding-right: 10px;
     }
