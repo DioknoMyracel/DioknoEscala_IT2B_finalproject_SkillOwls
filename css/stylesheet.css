@@ -262,6 +262,7 @@ iframe{
     text-align: center;
     top: 0px;
     bottom: 5px;
+    margin: 0;
 }
 .footer a img{
     border-radius: 50%;
