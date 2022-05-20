@@ -54,9 +54,9 @@
 		    <a class="active" href="<?php echo $highlights_address; ?>">HIGHLIGHTS</a>
 		    <a href="<?php echo $tutorial_address; ?>">TUTORIALS</a>   
 		</nav>
-	    <div class="miyahead" ><?php echo 'Look Here! Savage Moments of Some MLBB Heroes'; ?></div>
+	    <div class="miyahead"><a href="<?php echo $highlights_address; ?>" style="color: white"><?php echo 'Look Here! Savage Moments of Some MLBB Heroes'; ?></a></div>
 	    <div class="main">
-	    <div class="miyahead" style="margin-top: 30px"><a href="<?php echo $epic_address; ?>" style="color: white"><?php echo 'Watch Now! Epic Moments o f MLBB Heroes'; ?></a></div>
+	    <div class="miyahead" style="margin-top: 10px"><a href="<?php echo $epic_address; ?>" style="color: white"><?php echo 'Watch Now! Epic Moments o f MLBB Heroes'; ?></a></div>
 	    	<iframe style="max-width: 45%" src="<?php echo $e1; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
 	        <iframe style="max-width: 45%" src="<?php echo $e2; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
 	        <iframe style="max-width: 45%" src="<?php echo $e3; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
@@ -65,7 +65,7 @@
 	        <iframe style="max-width: 45%" src="<?php echo $e6; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
 	        <iframe style="max-width: 45%" src="<?php echo $e7; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
 	        <iframe style="max-width: 45%" src="<?php echo $e8; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	    <div class="miyahead"  style="margin-top: 20px; margin-bottom: 20px"><a href="<?php echo $funny_address; ?>" style="color: white"><?php echo 'Watch Now! Funny Moments of MLBB Heroes';?></a></div>
+	    <div class="miyahead"  style="margin-top: 10px; margin-bottom: 10px"><a href="<?php echo $funny_address; ?>" style="color: white"><?php echo 'Watch Now! Funny Moments of MLBB Heroes';?></a></div>
 		</div>
 		<div class="footer">
 			<?php 	

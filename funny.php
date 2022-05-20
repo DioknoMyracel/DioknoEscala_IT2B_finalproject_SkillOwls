@@ -6,14 +6,14 @@
 	$news_address ='news.php';
 	$highlights_address = 'highlights.php';
 	$tutorial_address = 'tutorials.php';
-	$h1 = 'https://www.youtube.com/embed/22PFPiT7NH0';
-	$h2 = 'https://www.youtube.com/embed/hsBulb282H4';
-	$h3 = 'https://www.youtube.com/embed/r3y-e6liquE';
-	$h4 = 'https://www.youtube.com/embed/5iyNpUWQBeE';
-	$h5 = 'https://www.youtube.com/embed/hsBulb282H4';
-	$h6 = 'https://www.youtube.com/embed/9Rtc4BEPIXQ';
-	$h7 = 'https://www.youtube.com/embed/SvyHsnE7P3k';
-	$h8 = 'https://www.youtube.com/embed/SvyHsnE7P3k';
+	$f1 = 'https://www.youtube.com/embed/QpG54cm2Lec';
+	$f2 = 'https://www.youtube.com/embed/MhVt4oxqGQQ';
+	$f3 = 'https://www.youtube.com/embed/5yPnKDdBilc';
+	$f4 = 'https://www.youtube.com/embed/qsvnzOz7-To';
+	$f5 = 'https://www.youtube.com/embed/sf_xAjBNpaw';
+	$f6 = 'https://www.youtube.com/embed/ePplhBU1J40';
+	$f7 = 'https://www.youtube.com/embed/TeK5XDhVrYw';
+	$f8 = 'https://www.youtube.com/embed/lz_WwPLhHdk';
 	$fb_logo = 'images/fb.png';
 	$ig_logo = 'images/ig.png';
 	$twit_logo = 'images/twitter.png';
@@ -54,18 +54,18 @@
 		    <a class="active" href="<?php echo $highlights_address; ?>">HIGHLIGHTS</a>
 		    <a href="<?php echo $tutorial_address; ?>">TUTORIALS</a>   
 		</nav>
-	    <div class="miyahead" ><?php echo 'Look Here! Savage Moments of Some MLBB Heroes'; ?></div>
+	    <div class="miyahead"><a href="<?php echo $highlights_address; ?>" style="color: white"><?php echo 'Look Here! Savage Moments of Some MLBB Heroes'; ?></a></div>
 	    <div class="main">
-			<iframe style="max-width: 45%" src="<?php echo $h1; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	        <iframe style="max-width: 45%" src="<?php echo $h2; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	        <iframe style="max-width: 45%" src="<?php echo $h3; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	        <iframe style="max-width: 45%" src="<?php echo $h4; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	        <iframe style="max-width: 45%" src="<?php echo $h5; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	        <iframe style="max-width: 45%" src="<?php echo $h6; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	        <iframe style="max-width: 45%" src="<?php echo $h7; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-	        <iframe style="max-width: 45%" src="<?php echo $h8; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
 	    <div class="miyahead" style="margin-top: 10px"><a href="<?php echo $epic_address; ?>" style="color: white"><?php echo 'Watch Now! Epic Moments o f MLBB Heroes'; ?></a></div>
 	    <div class="miyahead"  style="margin-top: 10px; margin-bottom: 10px"><a href="<?php echo $funny_address; ?>" style="color: white"><?php echo 'Watch Now! Funny Moments of MLBB Heroes';?></a></div>
+	    	<iframe style="max-width: 45%" src="<?php echo $f1; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
+	        <iframe style="max-width: 45%" src="<?php echo $f2; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
+	        <iframe style="max-width: 45%" src="<?php echo $f3; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
+	        <iframe style="max-width: 45%" src="<?php echo $f4; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
+	        <iframe style="max-width: 45%" src="<?php echo $f5; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
+	        <iframe style="max-width: 45%" src="<?php echo $f6; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
+	        <iframe style="max-width: 45%" src="<?php echo $f7; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
+	        <iframe style="max-width: 45%" src="<?php echo $f8; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe> 
 		</div>
 		<div class="footer">
 			<?php 	
