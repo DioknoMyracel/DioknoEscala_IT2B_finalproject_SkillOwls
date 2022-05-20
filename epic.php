@@ -5,7 +5,7 @@
 	$home_address ='index.php';
 	$news_address ='news.php';
 	$highlights_address = 'highlights.php';
-	$tutorial_address = 'tutorials.php';
+	$tutorial_address = 'tutorial.php';
 	$e1 = 'https://www.youtube.com/embed/tK3bKLcWsRQ';
 	$e2 = 'https://www.youtube.com/embed/cbbqh0K7sJI';
 	$e3 = 'https://www.youtube.com/embed/cbbqh0K7sJI';

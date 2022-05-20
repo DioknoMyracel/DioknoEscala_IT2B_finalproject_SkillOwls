@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE hero_list [
+    <!ELEMENT hero1(name, role, specs)>
+    <!ELEMENT hero2(name, role, specs)>
+    <!ELEMENT hero3(name, role, specs)>
+    <!ELEMENT hero4(name, role, specs)>
+    <!ELEMENT hero5(name, role, specs)>
+    <!ELEMENT hero6(name, role, specs)>
+    <!ELEMENT hero7(name, role, specs)>
+    <!ELEMENT hero8(name, role, specs)>
+    <!ELEMENT hero9(name, role, specs)>
+    <!ELEMENT hero10(name, role, specs)>
+
+    <!ELEMENT name(#PCDATA)>
+    <!ELEMENT role(#PCDATA)>
+    <!ELEMENT specs(#PCDATA)>
+]>
 <hero_list>
 	<hero1>
         <name>Miya</name>
@@ -20,4 +37,34 @@
         <role>Assassin</role>
         <specs>Reap|Magic Damage</specs>
     </hero4>
+    <hero5>
+        <name>Tigreal</name>
+        <role>Tank|Support</role>
+        <specs>Crowd Control</specs>
+    </hero5>
+    <hero6>
+        <name>Harley</name>
+        <role>Mage|Assassin</role>
+        <specs>Burst|Poke</specs>
+    </hero6>
+    <hero7>
+        <name>Kadita</name>
+        <role>Mage|Assassin</role>
+        <specs>Bust|Charge</specs>
+    </hero7>
+    <hero8>
+        <name>Wanwan</name>
+        <role>Marksman</role>
+        <specs>Reap|Burst</specs>
+    </hero8>
+    <hero9>
+        <name>Faramis</name>
+        <role>Support|Mage</role>
+        <specs>Guard|Charge</specs>
+    </hero9>
+    <hero10>
+        <name>Fanny</name>
+        <role>Fighter</role>
+        <specs>Reap|Chase</specs>
+    </hero10>
 </hero_list>

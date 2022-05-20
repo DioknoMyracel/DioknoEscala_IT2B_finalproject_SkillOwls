@@ -5,7 +5,7 @@
 	$home_address ='index.php';
 	$news_address ='news.php';
 	$highlights_address = 'highlights.php';
-	$tutorial_address = 'tutorials.php';
+	$tutorial_address = 'tutorial.php';
 	$news1 ='https://www.eurogamer.net/league-of-legends-developer-suing-mobile-legends-for-copyright';
 	$news2 ='https://www.oneesports.gg/mobile-legends/31st-sea-games-mobile-legends/';
 	$news3 ='https://www.gosugamers.net/mobile-legends/news/57122-rsg-ph-are-the-new-champions-of-mpl-ph-season-9';
