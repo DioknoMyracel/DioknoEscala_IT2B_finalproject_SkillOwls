@@ -83,7 +83,8 @@
 		            <a href="<?php echo $news1; ?>" class="list">
 		            <h4>League of Legends developer suing Mobile Legends for copyright</h4></a>
 		           	<?php    
-			            echo '<h5>Riot Games, the developer behind MOBA League of Legends, is suing ByteDances Shanghai Moont...<p>3 days ago</p></h5>';
+			            echo '<h5>Riot Games, the developer behind MOBA League of Legends, is suing ByteDances Shanghai Moont...</h5>';
+			            echo '<p>3 days ago</p>';
 			        ?>
 		        </div>
 		    </div>
@@ -136,9 +137,9 @@
         	<iframe style="max-width: 45%" src="<?php echo $h2; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
         	<iframe style="max-width: 45%" src="<?php echo $h3; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
         	<iframe style="max-width: 45%" src="<?php echo $h4; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" "&autoplay=1" allowfullscreen ></iframe>
-        <div class="seemore">
-			<a href="<?php echo $highlights_address; ?>">See More</a>
-		</div>
+        	<div class="seemore">
+				<a href="<?php echo $highlights_address; ?>">See More</a>
+			</div>
 		</div>
 		<div class="homehead">MLBB Hero Tutosials</div>
 		<div class="main">
@@ -192,9 +193,9 @@
 	        </table>
 			<div class="seemore">
 			<a href="<?php echo $tutorial_address; ?>">See More</a>
+			</div>
 		</div>
-		</div>
-	    <div class="footer">
+		<div class="footer">
 	    <?php 	
 	        echo '<h4>SkillOwls</h4>';
 	        echo '<p>&copy; 2022 . All rights reserved . <br> Exclusive Collaboration of Myracel J. Diokno &&  Angelica Mae A. Escala</p>';
@@ -202,5 +203,6 @@
 	        <a href="#"><img src="<?php echo $fb_logo; ?>"></a>
 	        <a href="#"><img src="<?php echo $ig_logo; ?>"></a>
 	        <a href="#"><img src="<?php echo $twit_logo; ?>"></a>
-	    </div>
+    	</div>
+    </div>
 </body>

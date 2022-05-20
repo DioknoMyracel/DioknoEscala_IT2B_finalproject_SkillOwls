@@ -129,11 +129,18 @@ span{
     font-size: 12px;
 }
 .main{
-    clear: both;;
+    clear: both;
     height: auto;
     width: 100%;
     padding: 10px;
     background-color: aliceblue;
+}
+.latestnews{
+    height: 120px;
+    width: 100%;
+    background-color: aliceblue;
+    border-bottom: 1px dotted black;
+    vertical-align: middle;
 }
 .newslist{
     max-width: 50%;
@@ -323,7 +330,7 @@ iframe{
     }
     .menu a{
         float: left;
-        font-size: 13px;
+        font-size: 12px;
         color: white;
         text-align: center;
         padding: 9px 5%;
@@ -338,8 +345,12 @@ iframe{
     .homehead{
         padding: 10px;
     }
+    .latestnews{
+        height: 100px;
+    }
     .newslist{
         height: 90px;
+        max-width: 580px;
         width: 100%;
         display: block;
     }
@@ -349,11 +360,10 @@ iframe{
         height: auto;
         margin-top: 1%;
         padding-right: 10px;
+        display: block;
     }
     .list{
-        float: none;
         position: relative;
-        display: contents;
         max-width: 95%;
         width: inherit;
     }
@@ -361,10 +371,7 @@ iframe{
         font-size: 12px;
         font-weight: bold;
         display: block;
-    }
-    .list h5{
-        display: none;
-    }
+    }    
     .list p{
         font-size: 12px;
     }
