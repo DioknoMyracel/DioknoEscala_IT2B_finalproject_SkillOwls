@@ -15,7 +15,7 @@
 	$hero7 = 'kadita.php';
 	$hero8 = 'wanwan.php';
 	$hero9 = 'faramis.php';
-	$hero10 = 'fanny,php';
+	$hero10 = 'fanny.php';
 	$miya_img = 'images/miya.webp';
 	$balmond_img = 'images/balmond.webp';
 	$kagura_img = 'images/kagura.webp';
@@ -72,105 +72,72 @@
             <h4 style="font-weight: bold; text-align: center">Choose your hero...</h4>
             <thread>
 	            <tr class="tabs">
-	                <th class="hero">Hero</th>
-	                <th class="role">Role</th>
-	                <th class="specs">Specialties</th>
+	                <th class="hero"><?php echo 'Hero'; ?></th>
+	                <th class="role"><?php echo 'Role'; ?></th>
+	                <th class="specs"><?php echo 'Specialties'; ?></th>
 	            </tr>
 	        </thread>
             <tbody>
 	            <?php
 		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero1;
-		        ?>
-		        <tr>
-			        <td><a href="<?php echo $hero1; ?>"><img src="<?php echo $miya_img; ?>"><?php echo $ban->name;?></a></td>
-			        <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td> 
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero2;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero2; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name; ?></a></td>
-	                <td><?php echo $ban->role; ?></td>
-			        <td><?php echo $ban->specs; ?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero3;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero3; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero4;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero4; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero5;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero5; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero6;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero6; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero7;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero7; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero8;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero8; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero9;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero9; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            </tr>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $ban = $xml ->hero10;
-		        ?>
-	            <tr>
-	                <td><a href="<?php echo $hero10; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $ban->name;?></a></td>
-	                <td><?php echo $ban->role;?></td>
-			        <td><?php echo $ban->specs;?></td>
-	            
-	            </tr>
-            </tbody>
-        </table>
+		            $list = $xml -> hero_list;
+		            $name = $xml -> hero_name;
+		            $role = $xml -> hero_role;
+		            $specs = $xml -> hero_specs;
+		           ?>
+			        <tr>
+				        <td><a href="<?php echo $hero1; ?>"><img src="<?php echo $miya_img; ?>"><?php echo $name -> miya;?></a></td>
+
+				        <td><?php echo $role -> mm;?></td>
+				        <td><?php echo $specs -> rd;?></td> 
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero2; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $name-> balmond; ?></a></td>
+		                <td><?php echo $role -> fg; ?></td>
+				        <td><?php echo $specs -> dr; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero3; ?>"><img src="<?php echo $kagura_img; ?>"><?php echo $name-> kagura; ?></a></td>
+		                <td><?php echo $role -> mg; ?></td>
+				        <td><?php echo $specs -> pr; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero4; ?>"><img src="<?php echo $karina_img; ?>"><?php echo $name-> karina; ?></a></td>
+		                <td><?php echo $role -> ass; ?></td>
+				        <td><?php echo $specs -> rm; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero5; ?>"><img src="<?php echo $tigreal_img; ?>"><?php echo $name-> tigreal; ?></a></td>
+		                <td><?php echo $role -> ts; ?></td>
+				        <td><?php echo $specs -> cc; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero6; ?>"><img src="<?php echo $harley_img; ?>"><?php echo $name-> harley; ?></a></td>
+		                <td><?php echo $role -> ma; ?></td>
+				        <td><?php echo $specs -> bp; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero7; ?>"><img src="<?php echo $kadita_img; ?>"><?php echo $name-> kadita; ?></a></td>
+		                <td><?php echo $role -> ma; ?></td>
+				        <td><?php echo $specs -> bc; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero8; ?>"><img src="<?php echo $wanwan_img; ?>"><?php echo $name-> wanwan; ?></a></td>
+		                <td><?php echo $role -> mm; ?></td>
+				        <td><?php echo $specs -> br; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero9; ?>"><img src="<?php echo $faramis_img; ?>"><?php echo $name-> faramis; ?></a></td>
+		                <td><?php echo $role -> sm; ?></td>
+				        <td><?php echo $specs -> gc; ?></td>
+		            </tr>
+		            <tr>
+		                <td><a href="<?php echo $hero10; ?>"><img src="<?php echo $fanny_img; ?>"><?php echo $name-> fanny; ?></a></td>
+		                <td><?php echo $role -> fg; ?></td>
+				        <td><?php echo $specs -> cr; ?></td>
+		            </tr>
+	            </tbody>
+	        </table>
 		</div>
 		<div class="footer">
 			<?php 	

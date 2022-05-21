@@ -1,70 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE hero_list [
-    <!ELEMENT hero1(name, role, specs)>
-    <!ELEMENT hero2(name, role, specs)>
-    <!ELEMENT hero3(name, role, specs)>
-    <!ELEMENT hero4(name, role, specs)>
-    <!ELEMENT hero5(name, role, specs)>
-    <!ELEMENT hero6(name, role, specs)>
-    <!ELEMENT hero7(name, role, specs)>
-    <!ELEMENT hero8(name, role, specs)>
-    <!ELEMENT hero9(name, role, specs)>
-    <!ELEMENT hero10(name, role, specs)>
+    <!ELEMENT hero_name (miya, balmond, kagura, karina, tigreal, harley, kadita, wanwan, faramis, fanny)>
+    <!ELEMENT hero_role (mm, fg, mg, ass, ts, ma, sm)>
+    <!ELEMENT hero_specs (rd, dr, pr, rm, cc, bp, bc, br, gc, cr)>
 
-    <!ELEMENT name(#PCDATA)>
-    <!ELEMENT role(#PCDATA)>
-    <!ELEMENT specs(#PCDATA)>
+    <!ELEMENT miya (#PCDATA)>
+    <!ELEMENT balmond (#PCDATA)>
+    <!ELEMENT kagura (#PCDATA)>
+    <!ELEMENT karina (#PCDATA)>
+    <!ELEMENT tigreal (#PCDATA)>
+    <!ELEMENT harley (#PCDATA)>
+    <!ELEMENT kadita (#PCDATA)>
+    <!ELEMENT wanwan (#PCDATA)>
+    <!ELEMENT faramis (#PCDATA)>
+    <!ELEMENT fanny (#PCDATA)>
+
+    <!ELEMENT mm (#PCDATA)>
+    <!ELEMENT fg (#PCDATA)>
+    <!ELEMENT mg (#PCDATA)>
+    <!ELEMENT ass (#PCDATA)>
+    <!ELEMENT ts (#PCDATA)>
+    <!ELEMENT ma (#PCDATA)>
+    <!ELEMENT sm (#PCDATA)>
+
+    <!ELEMENT rd (#PCDATA)>
+    <!ELEMENT dr (#PCDATA)>
+    <!ELEMENT pr (#PCDATA)>
+    <!ELEMENT rm (#PCDATA)>
+    <!ELEMENT cc (#PCDATA)>
+    <!ELEMENT bp (#PCDATA)>
+    <!ELEMENT bc (#PCDATA)>
+    <!ELEMENT br (#PCDATA)>
+    <!ELEMENT gc (#PCDATA)>
+    <!ELEMENT cr (#PCDATA)>
 ]>
 <hero_list>
-	<hero1>
-        <name>Miya</name>
-        <role>Marksman</role>
-        <specs>Reap|Damage</specs>
-    </hero1>
-    <hero2>
-        <name>Balmond</name>
-        <role>Fighter</role>
-        <specs>Damage|Reap</specs>
-    </hero2>
-    <hero3>
-        <name>Kagura</name>
-        <role>Mage</role>
-        <specs>Poke|Reap</specs>
-    </hero3>
-    <hero4>
-        <name>Karina</name>
-        <role>Assassin</role>
-        <specs>Reap|Magic Damage</specs>
-    </hero4>
-    <hero5>
-        <name>Tigreal</name>
-        <role>Tank|Support</role>
-        <specs>Crowd Control</specs>
-    </hero5>
-    <hero6>
-        <name>Harley</name>
-        <role>Mage|Assassin</role>
-        <specs>Burst|Poke</specs>
-    </hero6>
-    <hero7>
-        <name>Kadita</name>
-        <role>Mage|Assassin</role>
-        <specs>Bust|Charge</specs>
-    </hero7>
-    <hero8>
-        <name>Wanwan</name>
-        <role>Marksman</role>
-        <specs>Reap|Burst</specs>
-    </hero8>
-    <hero9>
-        <name>Faramis</name>
-        <role>Support|Mage</role>
-        <specs>Guard|Charge</specs>
-    </hero9>
-    <hero10>
-        <name>Fanny</name>
-        <role>Fighter</role>
-        <specs>Reap|Chase</specs>
-    </hero10>
+	<hero_name>
+        <miya>Miya</miya>
+        <balmond>Balmond</balmond>
+        <kagura>Kagura</kagura>
+        <karina>Karina</karina>
+        <tigreal>Tigreal</tigreal>
+        <harley>Harley</harley>
+        <kadita>Kaditae</kadita>
+        <wanwan>Wanwan</wanwan>
+        <faramis>Faramis</faramis>
+        <fanny>Fanny</fanny>
+    </hero_name>
+    <hero_role>
+        <mm>Marksman</mm>
+        <fg>Fighter</fg>
+        <mg>Mage</mg>
+        <ass>Assassin</ass>
+        <ts>Tank|Support</ts>
+        <ma>Mage|Assassin</ma>
+        <sm>Support|Mage</sm>
+    </hero_role>
+    <hero_specs>
+        <rd>Reap|Damage</rd>
+        <dr>Damage|Regen</dr>
+        <pr>Poke|Reap</pr>
+        <rm>Reap|Magic Damage</rm>
+        <cc>Crowd Control</cc>
+        <bp>Burst|Poke</bp>
+        <bc>Burst|Charge</bc>
+        <br>Burst|Reap</br>
+        <gc>Guard|Charge</gc>
+        <cr>Chase|Reap</cr>
+    </hero_specs>
 </hero_list>
