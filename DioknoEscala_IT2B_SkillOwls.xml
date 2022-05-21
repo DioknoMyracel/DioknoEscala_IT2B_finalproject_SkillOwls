@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE SkillOwls [
+    <!ELEMENT home (header, banner, news_main, highlights_main, tutorial_main, footer)>
+    <!ELEMENT news (news_contents)>
+    <!ELEMENT highlights (savage_moments, epic_moments, funny_moments)>
+    <!ELEMENT tutorials (hero_list)>
+
+    <!ELEMENT header (logo, navigation_bar, icon)>
+    <!ELEMENT navigation_bar (Home_tab, news_tab, Highlights_tab, tutorials_tab)>
+    <!ELEMENT hero_list (name, role, Specs)>
+    <!ELEMENT logo (#PCDATA)>
+    <!ELEMENT Home_tab(#PCDATA)>
+    <!ELEMENT news_tab (#PCDATA)>
+    <!ELEMENT Highlights_tab (#PCDATA)>
+    <!ELEMENT Highlights_tab (#PCDATA)>
+    <!ELEMENT icon (#PCDATA)>
+    <!ELEMENT banner (#PCDATA)>
+    <!ELEMENT news_main (#PCDATA)>
+    <!ELEMENT highlights_main (#PCDATA)>
+    <!ELEMENT tutorial_main (#PCDATA)>
+    <!ELEMENT footer (#PCDATA)>
+    <!ELEMENT news_contents (#PCDATA)>
+    <!ELEMENT savage_moments (#PCDATA)>
+    <!ELEMENT epic_moments (#PCDATA)>
+    <!ELEMENT funny_moments (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT role (#PCDATA)>
+    <!ELEMENT Specs (#PCDATA)>
+
+
+]>
+<SkillOwls>
+	<home>
+        <header>
+            <logo>SkillOwls</logo>
+            <navigation_bar>
+                <Home_tab>HOME</Home_tab>
+                <news_tab>NEWS</news_tab>
+                <Highlights_tab>HIGHLIGHTS</Highlights_tab>
+                <tutorials_tab>TUTORIALS</tutorials_tab>
+            </navigation_bar>
+            <icon>Search Bar Icon</icon>
+        </header>
+        <banner>image and text</banner>
+        <news_main>Latest News</news_main>
+        <highlights_main>Videos</highlights_main>
+        <tutorial_main>hero_list</tutorial_main>
+        <footer>SkillOwls© 2022 . All rights reserved .Exclusive Collaboration of Myracel J. Diokno && Angelica Mae A. Escala</footer>
+    </home>
+    <news>
+        <news_contents>Latest News</news_contents>
+    </news>
+    <highlights>
+        <savage_moments>Savage Videos</savage_moments>
+        <epic_moments>Epic Videos</epic_moments>
+        <funny_moments>Funny Videos</funny_moments>
+    </highlights>
+    <tutorials>
+        <hero_list>
+            <name>Hero Name</name>
+            <role>Hero Role</role>
+            <Specs>Hero Specialties</Specs>
+    </tutorials>
+</SkillOwls>

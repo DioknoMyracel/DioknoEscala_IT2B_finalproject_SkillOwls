@@ -153,34 +153,27 @@
 		            </tr>
 	            </thead>
 	            <tbody>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $list = $xml -> hero_list;
-		            $name = $xml -> hero_name;
-		            $role = $xml -> hero_role;
-		            $specs = $xml -> hero_specs;
-		           ?>
 			        <tr>
-				        <td><a href="<?php echo $hero1; ?>"><img src="<?php echo $miya_img; ?>"><?php echo $name -> miya;?></a></td>
+			        <td><a href="<?php echo $hero1; ?>"><img src="<?php echo $miya_img; ?>"><?php echo 'Miya';?></a></td>
 
-				        <td><?php echo $role -> mm;?></td>
-				        <td><?php echo $specs -> rd;?></td> 
-		            </tr>
-		         	<tr>
-		                <td><a href="<?php echo $hero2; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $name-> balmond; ?></a></td>
-		                <td><?php echo $role -> fg; ?></td>
-				        <td><?php echo $specs -> dr; ?></td>
-		            </tr>
-		       		<tr>
-		                <td><a href="<?php echo $hero3; ?>"><img src="<?php echo $kagura_img; ?>"><?php echo $name-> kagura; ?></a></td>
-		                <td><?php echo $role -> mg; ?></td>
-				        <td><?php echo $specs -> pr; ?></td>
-		            </tr>
-		        	<tr>
-		                <td><a href="<?php echo $hero4; ?>"><img src="<?php echo $karina_img; ?>"><?php echo $name-> karina; ?></a></td>
-		                <td><?php echo $role -> ass; ?></td>
-				        <td><?php echo $specs -> rm; ?></td>
-		            </tr>
+				    <td><?php echo 'Marksman';?></td>
+				    <td><?php echo 'Reap|Damage';?></td> 
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero2; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo 'Balmond'; ?></a></td>
+	                <td><?php echo 'Fighter' ?></td>
+			        <td><?php echo 'Damage|Regen' ; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero3; ?>"><img src="<?php echo $kagura_img; ?>"><?php echo 'Kagura'; ?></a></td>
+	                <td><?php echo 'Mage' ?></td>
+			        <td><?php echo 'Poke|Reap' ; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero4; ?>"><img src="<?php echo $karina_img; ?>"><?php echo 'Karina'; ?></a></td>
+	                <td><?php echo 'Assassin' ?></td>
+			        <td><?php echo 'Poke|Reap'; ?></td>
+	            </tr>
 	            </tbody>
 	        </table>
 			<div class="seemore">

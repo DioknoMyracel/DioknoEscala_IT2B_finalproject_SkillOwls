@@ -78,66 +78,59 @@
 	            </tr>
 	        </thread>
             <tbody>
-	            <?php
-		            $xml = simplexml_load_file("xmlfile.xml");
-		            $list = $xml -> hero_list;
-		            $name = $xml -> hero_name;
-		            $role = $xml -> hero_role;
-		            $specs = $xml -> hero_specs;
-		           ?>
-			        <tr>
-				        <td><a href="<?php echo $hero1; ?>"><img src="<?php echo $miya_img; ?>"><?php echo $name -> miya;?></a></td>
+		        <tr>
+			        <td><a href="<?php echo $hero1; ?>"><img src="<?php echo $miya_img; ?>"><?php echo 'Miya';?></a></td>
 
-				        <td><?php echo $role -> mm;?></td>
-				        <td><?php echo $specs -> rd;?></td> 
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero2; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo $name-> balmond; ?></a></td>
-		                <td><?php echo $role -> fg; ?></td>
-				        <td><?php echo $specs -> dr; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero3; ?>"><img src="<?php echo $kagura_img; ?>"><?php echo $name-> kagura; ?></a></td>
-		                <td><?php echo $role -> mg; ?></td>
-				        <td><?php echo $specs -> pr; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero4; ?>"><img src="<?php echo $karina_img; ?>"><?php echo $name-> karina; ?></a></td>
-		                <td><?php echo $role -> ass; ?></td>
-				        <td><?php echo $specs -> rm; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero5; ?>"><img src="<?php echo $tigreal_img; ?>"><?php echo $name-> tigreal; ?></a></td>
-		                <td><?php echo $role -> ts; ?></td>
-				        <td><?php echo $specs -> cc; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero6; ?>"><img src="<?php echo $harley_img; ?>"><?php echo $name-> harley; ?></a></td>
-		                <td><?php echo $role -> ma; ?></td>
-				        <td><?php echo $specs -> bp; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero7; ?>"><img src="<?php echo $kadita_img; ?>"><?php echo $name-> kadita; ?></a></td>
-		                <td><?php echo $role -> ma; ?></td>
-				        <td><?php echo $specs -> bc; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero8; ?>"><img src="<?php echo $wanwan_img; ?>"><?php echo $name-> wanwan; ?></a></td>
-		                <td><?php echo $role -> mm; ?></td>
-				        <td><?php echo $specs -> br; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero9; ?>"><img src="<?php echo $faramis_img; ?>"><?php echo $name-> faramis; ?></a></td>
-		                <td><?php echo $role -> sm; ?></td>
-				        <td><?php echo $specs -> gc; ?></td>
-		            </tr>
-		            <tr>
-		                <td><a href="<?php echo $hero10; ?>"><img src="<?php echo $fanny_img; ?>"><?php echo $name-> fanny; ?></a></td>
-		                <td><?php echo $role -> fg; ?></td>
-				        <td><?php echo $specs -> cr; ?></td>
-		            </tr>
-	            </tbody>
-	        </table>
+				    <td><?php echo 'Marksman';?></td>
+				    <td><?php echo 'Reap|Damage';?></td> 
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero2; ?>"><img src="<?php echo $balmond_img; ?>"><?php echo 'Balmond'; ?></a></td>
+	                <td><?php echo 'Fighter' ?></td>
+			        <td><?php echo 'Damage|Regen' ; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero3; ?>"><img src="<?php echo $kagura_img; ?>"><?php echo 'Kagura'; ?></a></td>
+	                <td><?php echo 'Mage' ?></td>
+			        <td><?php echo 'Poke|Reap' ; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero4; ?>"><img src="<?php echo $karina_img; ?>"><?php echo 'Karina'; ?></a></td>
+	                <td><?php echo 'Assassin' ?></td>
+			        <td><?php echo 'Poke|Reap'; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero5; ?>"><img src="<?php echo $tigreal_img; ?>"><?php echo 'Tigreal'; ?></a></td>
+	                <td><?php echo 'Tank|Support'; ?></td>
+			        <td><?php echo 'Crowd Control'; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero6; ?>"><img src="<?php echo $harley_img; ?>"><?php echo 'Harley'; ?></a></td>
+	                <td><?php echo 'Mage'; ?></td>
+			        <td><?php echo 'Burst|Poke'; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero7; ?>"><img src="<?php echo $kadita_img; ?>"><?php echo 'Kadita'; ?></a></td>
+	                <td><?php echo 'Mage'; ?></td>
+			        <td><?php echo 'Burst|Charge'; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero8; ?>"><img src="<?php echo $wanwan_img; ?>"><?php echo 'Wanwan'; ?></a></td>
+	                <td><?php echo 'Marksman'; ?></td>
+			        <td><?php echo 'Burst|Reap'; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero9; ?>"><img src="<?php echo $faramis_img; ?>"><?php echo 'Faramis'; ?></a></td>
+	                <td><?php echo 'Support|Mage'; ?></td>
+			        <td><?php echo 'Guard|Charge'; ?></td>
+	            </tr>
+	            <tr>
+	                <td><a href="<?php echo $hero10; ?>"><img src="<?php echo $fanny_img; ?>"><?php echo 'Fanny'; ?></a></td>
+	                <td><?php echo 'Fighter'; ?></td>
+			        <td><?php echo 'Chase|Reap'; ?></td>
+	            </tr>
+            </tbody>
+        </table>
 		</div>
 		<div class="footer">
 			<?php 	
