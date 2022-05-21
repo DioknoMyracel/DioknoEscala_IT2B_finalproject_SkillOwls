@@ -55,7 +55,7 @@
 		    <a href="<?php echo $highlights_address; ?>">HIGHLIGHTS</a>
 		    <a class="active" href="<?php echo $tutorial_address; ?>">TUTORIALS</a>   
 		</nav>
-	    <div class="miyahead"><a href="<?php echo $highlights_address; ?>" style="color: white"><?php echo 'Learn How to Use Mobile Legends: Bang Bang Hero Miya'; ?></a></div>
+	    <div class="miyahead"><?php echo 'Learn How to Use Mobile Legends: Bang Bang Hero Miya'; ?></div>
 	    <div class="main">
 	    <div class="miyagif">
 		    <img src="<?php echo $miya_gif; ?>">
